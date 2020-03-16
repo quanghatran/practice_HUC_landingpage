@@ -1,0 +1,431 @@
+body, html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 90%;
+  margin: auto;
+  -webkit-box-shadow: 30px 0px 40px rgba(97, 94, 94, 0.2), -30px 0px 40px rgba(97, 94, 94, 0.2);
+          box-shadow: 30px 0px 40px rgba(97, 94, 94, 0.2), -30px 0px 40px rgba(97, 94, 94, 0.2);
+}
+
+.navbar {
+  background: #c01d25 !important;
+  font-size: 15px;
+}
+
+.navbar li a {
+  color: #fff !important;
+  width: 100%;
+  padding: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar ul {
+  list-style: none;
+  position: relative;
+}
+
+.navbar ul li ul {
+  display: none;
+}
+
+.navbar ul :hover ul {
+  display: block;
+  position: absolute;
+}
+
+.navbar a:hover {
+  display: block;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.navbar i {
+  margin: 4px;
+  font-size: 24px;
+}
+
+.navbar .submenu {
+  background: #ff7675;
+  padding: 10px;
+}
+
+.navbar .submenu a {
+  border-bottom: 1px #dfe6e9 solid;
+}
+
+.navbar input {
+  width: 300px;
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 11%;
+}
+
+.carousel-caption h1 {
+  font-size: 450%;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 15px #000;
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  text-shadow: 5px 5px 15px #000;
+}
+
+.carousel-caption button {
+  margin-top: 15px;
+}
+
+.carousel-caption .btn-info, .carousel-caption .btn-danger {
+  font-size: 180%;
+  padding: 4px 20px;
+}
+
+.carousel-item img {
+  max-height: 720px;
+}
+
+#jumbotron {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+}
+
+#jumbotron div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#jumbotron .block-1 h4 {
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+#jumbotron .block-2 button {
+  margin: auto 20px;
+}
+
+#login {
+  margin-right: -900px;
+}
+
+#newsletter {
+  margin-top: 40px;
+}
+
+#newsletter #text {
+  padding-left: 20px;
+}
+
+#newsletter #text a {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#newsletter #text p {
+  font-size: 17px;
+}
+
+#newsletter #text p a {
+  font-size: 15px;
+}
+
+#newsletter #text img {
+  margin-top: 30px;
+}
+
+#newsletter #text button {
+  margin-bottom: 25px;
+}
+
+#newsletter li {
+  list-style: none;
+  font-size: 15px;
+}
+
+#newsletter hr {
+  border-top: 1px solid #c01d25;
+  width: 95%;
+}
+
+#newsletter #sub-text {
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+#newsletter #sub-text a {
+  margin-top: 40px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#newsletter #sub-text p {
+  font-size: 14px;
+}
+
+#newsletter #sub-text p a {
+  font-size: 14px;
+}
+
+#newsletter #sub-text hr {
+  opacity: 0.6;
+}
+
+#newsletter #sub-text h2 {
+  line-height: 17px;
+}
+
+#newsletter #sub-text img {
+  width: 100%;
+  max-height: 245px;
+}
+
+#newsletter #sub-text .sub-text-1 {
+  padding: 5px;
+  border: 1px solid #E1E1E1;
+  margin-top: 10px;
+}
+
+#newsletter #sub-text #date-time {
+  display: block;
+  background: #c01d25;
+  color: #fff;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 17px;
+  -webkit-box-shadow: 5px 5px 15px #1B1B1B;
+          box-shadow: 5px 5px 15px #1B1B1B;
+}
+
+#newsletter #menu-bar {
+  display: block;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+#newsletter #menu-bar h3 {
+  background: #4267B2;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding: 15px 0px;
+  border: 1px solid #CECECE;
+  font-size: 20px;
+}
+
+#newsletter #menu-bar ul {
+  background: #dfe4ea;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid #ccc;
+  margin-top: -10px;
+  padding-bottom: 10px;
+  width: 100%;
+  max-height: 320px;
+  overflow: hidden;
+}
+
+#newsletter #menu-bar ul li {
+  padding: 8px;
+  font-size: 14px;
+}
+
+#newsletter #menu-bar ul li .fas {
+  padding-right: 8px;
+}
+
+#newsletter #menu-bar ul .fas:hover {
+  font-size: 1.2rem;
+  color: #c01d25;
+}
+
+#newsletter #menu-bar ul .fab:hover {
+  font-size: 2rem;
+}
+
+#newsletter #menu-bar ul .icon .fab {
+  padding: 0 8px;
+}
+
+#newsletter #menu-bar ul .fa-facebook-square {
+  font-size: 25px;
+  color: #4267B2;
+}
+
+#newsletter #menu-bar ul .fa-youtube {
+  font-size: 25px;
+  color: #FF0000;
+}
+
+#newsletter #menu-bar ul .fa-twitter-square {
+  font-size: 25px;
+  color: #1DA1F2;
+}
+
+#newsletter #menu-bar #search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#newsletter #menu-bar #search input {
+  width: 80%;
+}
+
+#newsletter #menu-bar #search a {
+  margin: 6px 6px 6px -30px;
+  font-size: 20px;
+}
+
+#newsletter iframe {
+  width: 100%;
+  height: 400px;
+  display: block;
+  margin-top: 40px;
+}
+
+#sub-content {
+  margin-top: 30px;
+  display: block;
+  overflow: hidden;
+}
+
+#sub-content img {
+  padding-top: 10px;
+  margin-bottom: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#sub-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#sub-content p {
+  font-size: 14px;
+}
+
+#sub-content #second-sub-content {
+  background: #f1f2f6;
+  border: 1px solid #E1E1E1;
+}
+
+#sub-content #second-sub-content b {
+  font-size: 15px;
+}
+
+#footer {
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  margin-top: 20px;
+  color: #ffffff;
+  background: #c01d25;
+  text-align: center;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1440px) {
+  #menu-bar h3 {
+    font-size: 20px;
+  }
+  #menu-bar ul {
+    padding-bottom: 5px !important;
+  }
+  #menu-bar ul li {
+    font-size: 13px !important;
+  }
+  #menu-bar ul .fab {
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar ul li a {
+    font-size: 13px;
+  }
+  #menu-bar h3 {
+    font-size: 17px;
+  }
+  #sub-text h2 {
+    font-size: 13px !important;
+  }
+  #sub-text p {
+    font-size: 12px !important;
+  }
+  #sub-text p a {
+    font-size: 12px !important;
+  }
+  #jumbotron h4, #jumbotron button {
+    font-size: 17px;
+  }
+  .maps {
+    max-height: 300px;
+  }
+  #date-time {
+    font-size: 13px !important;
+  }
+  #newsletter button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #newsletter #text a, #newsletter #sub-text a {
+    font-size: 14px;
+  }
+  #newsletter #text p, #newsletter #sub-text p {
+    font-size: 13px;
+  }
+  #newsletter #text p a, #newsletter #sub-text p a {
+    font-size: 13px;
+  }
+  #newsletter #text h2, #newsletter #sub-text h2 {
+    line-height: 14px;
+  }
+  #newsletter #sub-text {
+    text-align: center;
+  }
+  #newsletter #sub-text img {
+    width: 80%;
+  }
+  #footer {
+    font-size: 12px;
+  }
+  .courses {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #text button {
+    font-size: 12px;
+  }
+  #jumbotron img, #jumbotron h4 {
+    display: none;
+  }
+  #jumbotron .block-2 {
+    margin: 0 auto;
+  }
+  #jumbotron .block-2 button {
+    font-size: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+/*# sourceMappingURL=style-scss.css.map */
